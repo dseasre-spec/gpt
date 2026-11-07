@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "فانتوم",
+    "slug": "phantom-app",
+    "scheme": "phantom",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["expo-router"],
+    "android": {"package": "com.tajermorood.phantom", "versionCode": 1},
+    "ios": {"bundleIdentifier": "com.tajermorood.phantom", "supportsTablet": false},
+    "extra": {"router": {"origin": false}}
+  }
+}
